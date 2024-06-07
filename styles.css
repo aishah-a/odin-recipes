@@ -1,6 +1,7 @@
 body {
     background-color: #FAF9F0;
     font-family: sans-serif;
+    padding: 8px;
 }
 .index ul {
     list-style: none;
@@ -16,6 +17,7 @@ h1 {
 
 .recipe h1 {
     font-size: 40px;
+    margin-top: 5px;
     margin-bottom: 2px;
     color: #5f797b
 }
@@ -48,3 +50,11 @@ a:visited {
     font-style: italic;
 }
 
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.nav_link {
+    font-size: 18px;
+}
