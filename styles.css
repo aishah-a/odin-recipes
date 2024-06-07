@@ -53,8 +53,29 @@ a:visited {
 .nav_links {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 a.nav_link {
     font-size: 18px;
+}
+
+h2,
+.desc {
+    color: #53917E;
+}
+
+.recipe li,
+h4 {
+    color: #5f797b;
+}
+
+
+h3 {
+    color: #2F4C3E;
+}
+
+.recipe img {
+    width: 250px;
+    height: auto;
 }
