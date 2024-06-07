@@ -1,15 +1,23 @@
-.index,
+body {
+    background-color: #FAF9F0;
+    font-family: sans-serif;
+}
 .index ul {
-    background-color: #f4f1de;
     list-style: none;
     font-size: 20px;
+    padding: 0;
 }
 
-.index h1 {
+h1 {
     color: #81b29a;
-    font-family: sans-serif;
-    font-size: 50px;
     text-align: center;
+    font-size: 55px;
+}
+
+.recipe h1 {
+    font-size: 40px;
+    margin-bottom: 2px;
+    color: #5f797b
 }
 
 .index img {
@@ -17,9 +25,26 @@
     height: auto;
 }
 
-div.container {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f6deb6;
-    padding: 8px;
+.recipe_list li {
+    text-align: center;
+    padding: 10px;
 }
+
+a:link {
+    color: #C75784;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a:visited {
+    color: #07639D;
+}
+
+.subtitle {
+    color: #81b29a;
+    text-align: center;
+    margin-top: 2px;
+    font-style: italic;
+}
+
