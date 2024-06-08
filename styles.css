@@ -15,6 +15,17 @@ h1 {
     font-size: 55px;
 }
 
+.home_photos {
+    display: block;
+    padding: 5px;
+    background-color: #e8dcc5;
+}
+
+.home_photos img {
+    margin: 0 3px;
+}
+
+
 .recipe h1 {
     font-size: 40px;
     margin-top: 5px;
@@ -32,15 +43,16 @@ h1 {
     padding: 10px;
 }
 
-a:link {
-    color: #C75784;
+a:link,
+a:visited {
+    color: #226d66;
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
 }
 
-a:visited {
-    color: #07639D;
+a:hover {
+    color: #81b29a;
 }
 
 .subtitle {
@@ -76,6 +88,8 @@ h3 {
 }
 
 .recipe img {
+    display: block;
     width: 250px;
     height: auto;
+    margin: 0 auto;
 }
